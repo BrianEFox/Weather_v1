@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./styles/EditableSection.css";
 import DatePicker from "./DatePicker.js";
-import TextField from "./TextField.js";
+import SelectField from "./SelectField.js";
 
 class EditableSection extends Component {
   render() {
@@ -17,10 +17,11 @@ class EditableSection extends Component {
           onChange={this.props.onEndDateChange}
           value={this.props.endDate}
         />
-        <TextField
+        <SelectField
           title="Location"
           onChange={this.props.onLocationChange}
           value={this.props.location}
+          options={this.props.locations}
         />
       </div>
     );

@@ -27,3 +27,15 @@
     transform: rotate(360deg);
   }
 }
+
+.warning {
+  color: #d97f00;
+  text-align: center;
+  margin: 5px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin: 5px;
+}

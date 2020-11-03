@@ -1,19 +1,18 @@
 .weather-card {
-  margin: 15px;
+  margin: 5px;
   border-radius: 15px;
-  padding: 30px;
+  padding: 10px;
   border: thin solid gray;
-  background-color: lightblue;
+  background-color: whitesmoke;
   flex: 0;
-  min-width: 80px;
+  width: 74px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
 .weather-datetime,
-.weather-location {
-  text-transform: uppercase;
+.weather-text {
   font-size: 0.75em;
   flex: 1;
 }
@@ -32,17 +31,17 @@
 }
 
 .weather-forecast.sunny {
-  background-position-x: 10px;
+  background-position: 3px -5px;
 }
 
 .weather-forecast.rainy {
-  background-position: 77px 60px;
+  background-position: 70px 57px;
 }
 
 .weather-forecast.cloudy {
-  background-position-x: 140px;
+  background-position: 137px -5px;
 }
 
 .weather-forecast.partly-cloudy {
-  background-position: 10px -120px;
+  background-position: 4px -132px;
 }
