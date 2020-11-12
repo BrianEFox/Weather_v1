@@ -15,38 +15,3 @@
   font: 17px Arial;
   text-shadow: 0px 1px 1px darkgray;
 }
-
-.editable-section table {
-  table-layout: fixed;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.editable-section th {
-  color: #101010;
-  text-shadow: 0px 1px 1px darkgray;
-}
-
-.editable-section th, td {
-  width: 185px;
-  align-content: center;
-}
-
-.editable-section tbody {
-  max-height: 660px;
-  overflow: auto;
-}
-
-.editable-section thead > tr, tbody {
-  display:block;
-}
-
-.day-row {
-  color: white;
-  text-shadow: 0px 1px 1px gray;
-}
-
-.no-data {
-  color: #959595;
-  font-style: italic;
-}

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import EditableSection from "./EditableSection";
 import WeatherCard from "./WeatherCard";
+import "./styles/DisplaySection.css"
 import "./styles/App.css";
 
 const DATA_FILE = 'test-data.json';
@@ -186,8 +187,8 @@ class App extends Component {
         />
         {this.state.warningMessage && <h5 className="warning">{this.state.warningMessage}</h5>}
         {this.state.errorMessage && <h4 className="error">{this.state.errorMessage}</h4>}
-        <div className="editable-section">
-          {!this.state.errorMessage && this.state.startDate && this.state.endDate &&
+        <div className="display-section">
+          {!this.state.errorMessage && this.state.startDate && this.state.endDate && this.state.location &&
             <table>
               <thead>
                 <tr>

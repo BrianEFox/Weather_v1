@@ -4,5 +4,43 @@
   border-radius: 15px;
   background-color: skyblue;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   justify-content: space-evenly;
+}
+
+.display-section table {
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.display-section th {
+  color: #101010;
+  text-shadow: 0px 1px 1px darkgray;
+}
+
+.display-section th, td {
+  width: 185px;
+  align-content: center;
+}
+
+.display-section tbody {
+  max-height: 660px;
+  overflow: auto;
+}
+
+.display-section thead > tr, tbody {
+  display:block;
+}
+
+.day-row {
+  color: white;
+  text-shadow: 0px 1px 1px gray;
+}
+
+.no-data {
+  color: #959595;
+  font-style: italic;
 }
