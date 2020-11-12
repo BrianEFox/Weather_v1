@@ -71,10 +71,6 @@ class App extends Component {
       });
 
       const warningMessage = warningsFound && locationDateToWeatherDataMap.size > 0 ? WARNING_BAD_DATA : null;
-console.log('warningMessage=', warningMessage);
-console.log('warningsFound=', warningsFound);
-console.log('locationDateToWeatherDataMap.size=', locationDateToWeatherDataMap.size);
-
       const errorMessage = locationDateToWeatherDataMap.size === 0 ? ERROR_INVALID_DATA_FILE : null;
       this.setState({
         availableLocations: locations,
